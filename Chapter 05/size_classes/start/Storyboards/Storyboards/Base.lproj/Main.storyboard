@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQY-Xw-h71">
+                                <rect key="frame" x="343.5" y="0.0" width="323.5" height="375"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqS-7L-aej">
+                                <rect key="frame" x="0.0" y="0.0" width="323.5" height="375"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mqS-7L-aej" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5DD-hd-7Sq"/>
+                            <constraint firstAttribute="bottom" secondItem="bQY-Xw-h71" secondAttribute="bottom" id="6aP-2o-tLf"/>
+                            <constraint firstItem="mqS-7L-aej" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7T9-fZ-tYh"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8eQ-bo-bC7"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cgo-1z-JaB"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="leading" secondItem="mqS-7L-aej" secondAttribute="trailing" constant="20" id="Gj7-dm-Ydt"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="L6i-G9-3XM"/>
+                            <constraint firstItem="mqS-7L-aej" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vhm-zj-ikB"/>
+                            <constraint firstAttribute="bottom" secondItem="mqS-7L-aej" secondAttribute="bottom" id="W3T-zh-qwa"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Zx4-XQ-bIK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bQY-Xw-h71" secondAttribute="trailing" id="aXZ-nr-6Gf"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="width" secondItem="mqS-7L-aej" secondAttribute="width" id="flV-5R-y9h"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="top" secondItem="mqS-7L-aej" secondAttribute="bottom" id="gCT-l9-o4R"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="width" secondItem="mqS-7L-aej" secondAttribute="width" id="gLk-nN-YsY"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="height" secondItem="mqS-7L-aej" secondAttribute="height" id="gfh-57-phk"/>
+                            <constraint firstItem="mqS-7L-aej" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="n1Z-ac-leu"/>
+                            <constraint firstItem="mqS-7L-aej" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xXU-y0-V0R"/>
+                            <constraint firstItem="bQY-Xw-h71" firstAttribute="height" secondItem="mqS-7L-aej" secondAttribute="height" id="zPa-lw-NfQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="aXZ-nr-6Gf"/>
+                                <exclude reference="7T9-fZ-tYh"/>
+                                <exclude reference="Vhm-zj-ikB"/>
+                                <exclude reference="W3T-zh-qwa"/>
+                                <exclude reference="6aP-2o-tLf"/>
+                                <exclude reference="Gj7-dm-Ydt"/>
+                                <exclude reference="Zx4-XQ-bIK"/>
+                                <exclude reference="gLk-nN-YsY"/>
+                                <exclude reference="zPa-lw-NfQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="aXZ-nr-6Gf"/>
+                                <exclude reference="5DD-hd-7Sq"/>
+                                <include reference="7T9-fZ-tYh"/>
+                                <include reference="Vhm-zj-ikB"/>
+                                <include reference="W3T-zh-qwa"/>
+                                <exclude reference="n1Z-ac-leu"/>
+                                <exclude reference="xXU-y0-V0R"/>
+                                <include reference="6aP-2o-tLf"/>
+                                <exclude reference="8eQ-bo-bC7"/>
+                                <exclude reference="Cgo-1z-JaB"/>
+                                <include reference="Gj7-dm-Ydt"/>
+                                <exclude reference="L6i-G9-3XM"/>
+                                <include reference="Zx4-XQ-bIK"/>
+                                <exclude reference="flV-5R-y9h"/>
+                                <exclude reference="gCT-l9-o4R"/>
+                                <include reference="gLk-nN-YsY"/>
+                                <exclude reference="gfh-57-phk"/>
+                                <include reference="zPa-lw-NfQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-454.72263868065971" y="109.59999999999999"/>
+        </scene>
+    </scenes>
+</document>
